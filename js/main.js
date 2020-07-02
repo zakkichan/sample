@@ -50,7 +50,7 @@
       this.img.src = this.getRandomImage();
       this.timeoutId = setTimeout(() => {
         this.spin();
-      }, 50);
+      }, 500);
     }
 
     isUnmatched(p1, p2) {
